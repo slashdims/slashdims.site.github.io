@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=2">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta property="og:image" content="path/to/image.jpg">
+    <link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href=" https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.css ">
+    <link rel="stylesheet" type="text/css" href="static/css/main.css"><!--[if lt IE 9]>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script><![endif]-->
+    <title>Главная страница </title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <section class="section-header welcome__container fixed">
+        <header class="container welcome-logo">
+          <div class="header-logo"><a class="logo" href="/" title="Республика недвижимости" style="background-image: url(static/img/general/ramka_swirl.png);"> </a></div>
+          <div class="header__nav-container">
+            <nav class="header__nav">
+              <ul class="nav-list" id="menu">
+                <li class="nav-list__item nav-list__item active"><a class="nav-list__link" href="#general">Главная</a></li>
+                <li class="nav-list__item "><a class="nav-list__link" href="#services">Услуги</a></li>
+                <li class="nav-list__item "><a class="nav-list__link" href="#strength">Преимущества</a></li>
+                <li class="nav-list__item "><a class="nav-list__link" href="#reviews">Отзывы</a></li>
+                <li class="nav-list__item "><a class="nav-list__link" href="#contacts">Контакты</a></li>
+              </ul>
+            </nav>
+            <div class="header-nav__soc">
+              <ul class="nav-soc">
+                <li class="nav-soc__item"><a class="nav-soc__link" href="https://vk.com/club29519563" target="_blank">
+                    <svg class="icon icon-vk ">
+                      <use xlink:href="static/img/svg/symbol/sprite.svg#vk"></use>
+                    </svg></a></li>
+                <li class="nav-soc__item"><a class="nav-soc__link" href="https://www.avito.ru/respublika" target="_blank">
+                    <svg class="icon icon-avito ">
+                      <use xlink:href="static/img/svg/symbol/sprite.svg#avito"></use>
+                    </svg></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="header-phone"><a class="phone" href="tel:+79217270390">8(921) 727-03-90</a><a class="consult" href="#form">Бесплатная консультация</a></div>
+          <div class="sandwich">
+            <svg class="ham6" viewbox="0 0 100 100" width="40" onclick="this.classList.toggle('active')">
+              <path class="line top" d="m 30,33 h 40 c 13.100415,0 14.380204,31.80258 6.899646,33.421777 -24.612039,5.327373 9.016154,-52.337577 -12.75751,-30.563913 l -28.284272,28.284272"></path>
+              <path class="line middle" d="m 70,50 c 0,0 -32.213436,0 -40,0 -7.786564,0 -6.428571,-4.640244 -6.428571,-8.571429 0,-5.895471 6.073743,-11.783399 12.286435,-5.570707 6.212692,6.212692 28.284272,28.284272 28.284272,28.284272"></path>
+              <path class="line bottom" d="m 69.575405,67.073826 h -40 c -13.100415,0 -14.380204,-31.80258 -6.899646,-33.421777 24.612039,-5.327373 -9.016154,52.337577 12.75751,30.563913 l 28.284272,-28.284272"></path>
+            </svg>
+          </div>
+          <nav class="mobile">
+            <ul class="mobile-nav">
+              <li class="mobile-nav__item "><a class="mobile-nav__link" href="#general">Главная</a></li>
+              <li class="mobile-nav__item "><a class="mobile-nav__link" href="#services">Услуги</a></li>
+              <li class="mobile-nav__item "><a class="mobile-nav__link" href="#strength">Преимущества</a></li>
+              <li class="mobile-nav__item "><a class="mobile-nav__link" href="#reviews">Отзывы</a></li>
+              <li class="mobile-nav__item "><a class="mobile-nav__link" href="#contacts">Контакты</a></li>
+            </ul>
+          </nav>
+          <div class="header-logo header-logo--img"><img src="static/img/content/logo2.jpg" alt="logo"></div>
+        </header>
+      </section>
+      <section class="section general" id="general">
+        <div class="container">
+          <div class="container-desc">
+            <div class="general-title">
+              <h1 class="title">Желание выгодно купить или продать недвижимость?</h1>
+            </div>
+            <div class="general-desc">
+              <p>Наша команда профессионалов исполнит Ваше желание в короткие сроки!</p>
+            </div>
+            <div class="general-desc__mobile">
+              <p>Наша команда исполнит Ваше желание!</p>
+            </div>
+            <div class="general-button"><a class="general-button__link" href="">Оставить заявку</a></div>
+          </div>
+        </div>
+      </section>
+      <section class="section our-services" id="services">
+        <div class="our-services__left"></div>
+        <div class="our-services__right">
+          <h2 class="our-services__title">Наши услуги</h2>
+          <nav class="nav-list" id="bx-pager">
+            <ul class="nav-list-services">
+              <li class="nav-list-services__item"><a class="nav-list-services__link" data-slide-index="0" href="">Продажа</a></li>
+              <li class="nav-list-services__item"><a class="nav-list-services__link" data-slide-index="1" href="">Покупка</a></li>
+              <li class="nav-list-services__item"><a class="nav-list-services__link" data-slide-index="2" href="">Другие</a></li>
+            </ul>
+          </nav>
+          <div class="services-list">
+            <div class="services-slider">
+              <ul class="services-list__nav">
+                <li class="services-list__item note">Профессиональная оценка объекта недвижимости</li>
+                <li class="services-list__item cheet">Предпродажная подготовка к продаже объекта недвижимости</li>
+                <li class="services-list__item search">Поиск покупателя в обширной клиентской базе</li>
+                <li class="services-list__item key">Организация и проведение сделки купли-продажи <br>(от составления договоров до передачи ключей покупателям )</li>
+              </ul>
+              <ul class="services-list__nav">
+                <li class="services-list__item note">Оформление ипотек в ведущих банках г.Петрозаводск</li>
+                <li class="services-list__item search">Подбор недвижимости с учетом пожеланий покупателя</li>
+                <li class="services-list__item cheet">Юридическая экспертиза документов, предоставленных <br> продавцом по продаваемому обьекту недвижимости </li>
+                <li class="services-list__item key">Организация и проведение сделки купли-продажи <br>(от составления договоров до передачи ключей покупателям )</li>
+              </ul>
+              <ul class="services-list__nav">
+                <li class="services-list__item note">Составление договоров купли-продажи недвижимости</li>
+                <li class="services-list__item calculate">Юридическое сопровождение сделки купли-продажи <br> обьектов недвижимости</li>
+                <li class="services-list__item doc">Срочный выкуп обьектов недвижимости</li>
+                <li class="services-list__item cheet">Содействие в приватизации жилых помещений</li>
+                <li class="services-list__item legal">Представительство в суде</li>
+              </ul>
+            </div><a class="services-list__prev" id="pronext">
+              <svg class="icon icon-arrow ">
+                <use xlink:href="static/img/svg/symbol/sprite.svg#arrow"></use>
+              </svg></a><a class="services-list__next" id="proprev">
+              <svg class="icon icon-right-arrow ">
+                <use xlink:href="static/img/svg/symbol/sprite.svg#right-arrow"></use>
+              </svg></a>
+          </div>
+        </div>
+      </section>
+      <section class="section our-strength" id="strength">
+        <div class="container our-strength__container">
+          <h2 class="our-strength__title">Почему выбирают нас?</h2>
+          <h2 class="our-strength__title--mobile">Почему мы?</h2>
+          <ul class="our-strength__nav">
+            <li class="our-strength__item skyline">
+              <div class="container-icon">
+                <svg class="icon icon-skyline ">
+                  <use xlink:href="static/img/svg/symbol/sprite.svg#skyline"></use>
+                </svg>
+                <div class="border"></div>
+              </div>
+              <p>8 лет успешной работы в сфере недвижимости</p>
+            </li>
+            <li class="our-strength__item placeholder">
+              <div class="container-icon">
+                <svg class="icon icon-placeholder ">
+                  <use xlink:href="static/img/svg/symbol/sprite.svg#placeholder"></use>
+                </svg>
+                <div class="border"></div>
+              </div>
+              <p>Ежедневное обновление базы обьектов</p>
+            </li>
+            <li class="our-strength__item house-key">
+              <div class="container-icon">
+                <svg class="icon icon-house-key ">
+                  <use xlink:href="static/img/svg/symbol/sprite.svg#house-key"></use>
+                </svg>
+                <div class="border"></div>
+              </div>
+              <p>Мы действуем в интересах наших клиентов</p>
+            </li>
+            <li class="our-strength__item contract">
+              <div class="container-icon">
+                <svg class="icon icon-contract ">
+                  <use xlink:href="static/img/svg/symbol/sprite.svg#contract"></use>
+                </svg>
+                <div class="border"></div>
+              </div>
+              <p>У нас нет двойных и скрытых комиссий</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="section reviews" id="reviews">
+        <h3 class="services-title">Отзывы <span>наших клиентов</span></h3>
+        <div class="services-list__reviews">
+          <div class="reviews-slider">
+            <div class="reviews-one">
+              <h3 class="reviews-title">Таисия Дерюгина</h3>
+              <p>Обратилась в АН "Республика" по совету коллеги. Владимир - настоящий профессионал, умеет объяснить сложные вопросы простым языком! Искали сразу вариант в заданном бюджете. На все просмотры Владимир ездил со мной, объяснял юридические вопросы, готовил документы. Нервный и сложный процесс стал простым, понятным и спокойным! Удачи, успеха Вам! Огромное спасибо!</p>
+            </div>
+            <div class="reviews-two">
+              <h3 class="reviews-title">Софья Харитонова</h3>
+              <p>
+                Обратилась в АН «Республика» с целью продать квартиру в кратчайшие сроки. Результат превзошел ожидания: квартиру продали за одну неделю, сделка организована прекрасно. Огромное спасибо менеджеру Александре за четкую и слаженную работу. 
+                В дальнейшем буду обращаться только в АН «Республика».
+              </p>
+            </div>
+            <div class="reviews-three">
+              <h3 class="reviews-title">Светлана Пахомова</h3>
+              <p>
+                В связи с расширением состава семьи, решили продавать однокомнатную квартиру. Хорошие друзья посоветовали обратиться в агентство недвижимости «Республика». Очень быстро приехал специалист, обговорили все нюансы по продаже. Поиск новой квартиры занял у нас несколько дней. Спасибо менеджеру Павлу.
+                Большое спасибо агентству недвижимости «Республика»!
+              </p>
+            </div>
+            <div class="reviews-four">
+              <h3 class="reviews-title">Хартман</h3>
+              <p>Благодарим агенство "Республика" за помощь в серьёзном деле - продажа квартиры. Когда на протяжении месяца почти ежедневно квартиру смотрели по несколько семей, мы поняли, что имеем дело с профессионалами и были уверены, что скоро наш вежливый менеджер -  Михаил, найдёт счастливца, который купит наше уютное жильё. Так и произошло!) Быстрая сделка, помощь со всей документацией и квартира продана! </p>
+            </div>
+          </div><a class="services-list__prev" id="prev">
+            <svg class="icon icon-arrow ">
+              <use xlink:href="static/img/svg/symbol/sprite.svg#arrow"></use>
+            </svg></a><a class="services-list__next" id="next">
+            <svg class="icon icon-right-arrow ">
+              <use xlink:href="static/img/svg/symbol/sprite.svg#right-arrow"></use>
+            </svg></a>
+        </div>
+        <div class="services-list--mobile one">
+          <div class="mobile-slider">
+            <div class="reviews-mobile__one">
+              <h3 class="reviews-title">Таисия Дерюгина</h3>
+              <p>Обратилась в АН "Республика" по совету коллеги. Владимир - настоящий профессионал, умеет объяснить сложные вопросы простым языком! Искали сразу вариант в заданном бюджете.</p><span class="content">На все просмотры Владимир ездил со мной, объяснял юридические вопросы, готовил документы. Нервный и сложный процесс стал простым, понятным и спокойным! Удачи, успеха Вам! Огромное спасибо!</span><span class="toggle">Читать далее...</span>
+            </div>
+            <div class="reviews-mobile__two">
+              <h3 class="reviews-title">Софья Харитонова</h3>
+              <p>
+                Обратилась в АН «Республика» с целью продать квартиру
+                в кратчайшие сроки. Результат превзошел ожидания: квартиру продали за одну неделю, сделка организована прекрасно. 
+              </p><span class="content">
+                Огромное спасибо менеджеру Александре за четкую и слаженную работу. 
+                В дальнейшем буду обращаться только в АН «Республика».</span><span class="toggle">Читать далее...</span>
+            </div>
+            <div class="reviews-mobile__three">
+              <h3 class="reviews-title">Светлана Пахомова</h3>
+              <p>В связи с расширением состава семьи, решили продавать однокомнатную квартиру. Хорошие друзья посоветовали обратиться в агентство недвижимости «Республика».  </p><span class="content">Очень быстро приехал специалист, обговорили все нюансы по продаже. Поиск новой квартиры занял у нас несколько дней. Спасибо менеджеру Павлу.Большое спасибо агентству недвижимости «Республика»!</span><span class="toggle">Читать далее...</span>
+            </div>
+            <div class="reviews-mobile__four">
+              <h3 class="reviews-title">Хартман</h3>
+              <p>Благодарим агенство "Республика" за помощь в серьёзном деле — продажа квартиры. Когда на протяжении месяца почти ежедневно квартиру смотрели по несколько семей   </p><span class="content">мы поняли, что имеем дело с профессионалами и были уверены, что скоро наш вежливый менеджер  Михаил, найдёт счастливца, который купит наше уютное жильё. Так и произошло!</span><span class="toggle">Читать далее...</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="padding" id="form"></div>
+      <section class="section map">
+        <div class="form-container">
+          <form class="form" action="#" method="POST">
+            <div class="form-title"> 
+              <h3>Бесплатная консультация</h3><span class="form-title-desc">Заполните заявку и мы свяжемся с Вами</span>
+            </div>
+            <div class="form-group form-group--name"> 
+              <label class="form-label">Ваше имя:</label>
+              <input class="form-control" id="name" type="text" name="name" placeholder="Ваше имя" tabindex="1" required>
+            </div>
+            <div class="form-group form-group--phone">
+              <label class="form-label">Телефон:</label>
+              <input class="form-control" id="phone" type="text" name="phone" placeholder="Телефон:" tabindex="2" required>
+            </div>
+            <div class="form-group form-group--text">
+              <label class="form-label">Тема заявки:</label>
+              <input class="form-control g-btn g-btn--secrets" id="text" type="text" name="tema" placeholder="Тема заявки:" tabindex="3" required>
+            </div>
+            <div class="form-group form-group--checkbox">
+              <label class="form-label form-label--checkbox">
+                <input class="checkbox form-control" id="check" type="checkbox" name="form-check"><span class="checkbox-custom"></span><span class="label desctop">Даю свое согласие на обработку персональных данных</span><span class="label-mobile">Cогласие на обработку персональных данных</span>
+              </label>
+            </div>
+            <div class="general-button general-button--mod"><a class="general-button__link" href="">Отправить заявку</a></div>
+          </form>
+        </div>
+        <div class="map__container"> 
+          <div class="map__object" id="map"></div>
+        </div>
+      </section>
+      <section class="section section-footer welcome__container" id="contacts">
+        <footer>
+          <div class="container welcome-text">
+            <div class="footer-logo"><a class="logo" href="/" title="Республика недвижимости" style="background-image: url(static/img/general/ramka_swirl.png);">   </a></div>
+            <div class="footer-contacts">
+              <h3 class="footer-contacts__title">Агенство недвижимости Республика</h3>
+            </div>
+            <div class="footer-phone"><span>8(921) 727-03-90 </span></div>
+          </div>
+          <div class="footer-mobile">
+            <p> РК, г. Петрозаводск, ул. Правды, д. 6		</p>
+          </div>
+          <div class="container welcome-desc">
+            <address class="address">Адрес: Республика Карелия, г. Петрозаводск, ул. Правды, д. 6  </address>
+            <div class="footer-list">
+              <ul class="footer-office__list"> 
+                <li class="footer-office__item">Офис:</li>
+                <li class="footer-office__item">(8142)445-007</li>
+                <li class="footer-office__item">(8142) 57-42-99</li>
+              </ul>
+              <ul class="footer-consultation__list"> 
+                <li class="footer-consultation__item">Консультации:</li>
+                <li class="footer-consultation__item">(8142) 445-007</li>
+                <li class="footer-consultation__item">8(921) 727-03-90</li>
+              </ul>
+            </div>
+            <div class="footer-soc__container">
+              <div class="footer-soc__mobile">
+                <p>Посмотрите наши объекты:</p>
+              </div>
+              <div class="footer-soc">
+                <p>Перейдите по ссылке <br> и посмотрите объекты:</p>
+              </div>
+              <ul class="nav-soc nav-soc--footer">
+                <li class="nav-soc__item"><a class="nav-soc__link" href="https://vk.com/club29519563" target="_blank">
+                    <svg class="icon icon-vk ">
+                      <use xlink:href="static/img/svg/symbol/sprite.svg#vk"></use>
+                    </svg></a></li>
+                <li class="nav-soc__item"><a class="nav-soc__link" href="https://www.avito.ru/respublika" target="_blank">
+                    <svg class="icon icon-avito-logo-vector ">
+                      <use xlink:href="static/img/svg/symbol/sprite.svg#avito-logo-vector"></use>
+                    </svg></a></li>
+              </ul>
+            </div>
+          </div>
+        </footer><span class="copyright">Все права защищены. АН Республика. 2018 г.</span>
+      </section>
+    </div>
+    <script src="static/js/jquery.js"></script>
+    <script src="static/js/libs.min.js"></script>
+    <script src="static/js/slick.min.js"></script>
+    <script src="//maps.googleapis.com/maps/api/js?key=AIzaSyAIQyrHP2oEDlsUF8AJmyd9R0vtRDKlOo8&amp;amp;sensor=false&amp;amp;language=en&amp;amp;ver=4.6.12"></script>
+    <script src="static/js/main.js"></script>
+    <script src="https://use.fontawesome.com/72c23d4204.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js"></script>
+  </body>
+</html>
